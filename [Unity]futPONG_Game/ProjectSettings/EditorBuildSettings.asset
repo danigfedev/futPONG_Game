@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/0-futPONG_Assets/Scenes/MainMenu.unity
+    guid: 867c038d7d567b64997879c9580c2001
+  - enabled: 1
+    path: Assets/0-futPONG_Assets/Scenes/Match.unity
+    guid: 5dae8cfc345c3eb428ae8e8d17f33aa3
   m_configObjects: {}
