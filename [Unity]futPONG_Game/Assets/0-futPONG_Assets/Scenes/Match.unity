@@ -607,9 +607,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 784478380}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c417410cbf72ce248b6b3f17eab6499a, type: 3}
+  m_Script: {fileID: 11500000, guid: 559eeb906a3104a48945cdf0236d0c9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  selectedPlayer: 2
+  playerSpeed: 8
 --- !u!61 &784478382
 BoxCollider2D:
   m_ObjectHideFlags: 0
