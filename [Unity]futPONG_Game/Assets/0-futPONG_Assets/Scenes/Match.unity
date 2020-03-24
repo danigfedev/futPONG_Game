@@ -462,7 +462,7 @@ GameObject:
   - component: {fileID: 625831861}
   - component: {fileID: 625831862}
   m_Layer: 0
-  m_Name: LeftTrigger
+  m_Name: P1_Goal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -517,10 +517,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 625831859}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c519b38c0bb033b42b36a7b405f78e88, type: 3}
+  m_Script: {fileID: 11500000, guid: b87830bf14c2f734d9422a9239955c0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AwayScoreText: {fileID: 1101238028}
+  goalSide: 0
+  homeTeamScoreBoard: {fileID: 12693899}
+  awayTeamScoreBoard: {fileID: 1101238028}
 --- !u!1 &743607062
 GameObject:
   m_ObjectHideFlags: 0
@@ -1153,7 +1155,7 @@ GameObject:
   - component: {fileID: 1647391170}
   - component: {fileID: 1647391171}
   m_Layer: 0
-  m_Name: RightTrigger
+  m_Name: P2_Goal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1208,10 +1210,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1647391168}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b519c5c311b64c34798c7303d6c8afa7, type: 3}
+  m_Script: {fileID: 11500000, guid: b87830bf14c2f734d9422a9239955c0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LocalScoreText: {fileID: 12693899}
+  goalSide: 1
+  homeTeamScoreBoard: {fileID: 12693899}
+  awayTeamScoreBoard: {fileID: 1101238028}
 --- !u!1 &1688419921
 GameObject:
   m_ObjectHideFlags: 0
