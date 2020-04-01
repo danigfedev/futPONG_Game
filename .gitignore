@@ -2,15 +2,14 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-[Unity]futPONG_Game/Library/
-Library/*
+[Unity]futPONG_Game/Library/*
 #/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
+[Unity]futPONG_Game/[Tt]emp/
+[Unity]futPONG_Game/[Oo]bj/
+[Unity]futPONG_Game/[Bb]uild/
+[Unity]futPONG_Game/[Bb]uilds/
+[Unity]futPONG_Game/[Ll]ogs/
+[Unity]futPONG_Game/[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
