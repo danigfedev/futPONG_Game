@@ -2,15 +2,16 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-~./[Unity]futPONG_Game/A/MECAGOENTUPUTAMADRE.txt
-[Unity]futPONG_Game/Library/
-#/[Ll]ibrary/
-[Unity]futPONG_Game/[Tt]emp/
-[Unity]futPONG_Game/[Oo]bj/
-[Unity]futPONG_Game/[Bb]uild/
-[Unity]futPONG_Game/[Bb]uilds/
-[Unity]futPONG_Game/[Ll]ogs/
-[Unity]futPONG_Game/[Mm]emoryCaptures/
+
+#Nota: Los corchetes no le gustan. Ejemplo: [Unity]Nombre del proyecto
+
+futPONG_Unity/[Ll]ibrary/
+futPONG_Unity/[Tt]emp/
+futPONG_Unity/[Oo]bj/
+futPONG_Unity/[Bb]uild/
+futPONG_Unity/[Bb]uilds/
+futPONG_Unity/[Ll]ogs/
+futPONG_Unity/[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
