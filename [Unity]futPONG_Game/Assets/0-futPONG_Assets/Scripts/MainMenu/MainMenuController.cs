@@ -125,7 +125,6 @@ public class MainMenuController : MonoBehaviour {
         child.SetActive(true);
 
 
-
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
 
